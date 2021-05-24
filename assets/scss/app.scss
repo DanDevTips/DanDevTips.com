@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap');
+
 /** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
 
@@ -65,11 +67,112 @@
         background: #3d4042;
       }
     }
-
-
   }
 }
 
+.tag {
+  display: inline-block;
+  padding: 0.3em 01em 0.3em;
+  border-radius: 12px;
+  background: #454e56;
+  color: #b2becd;
+  font-weight: 600;
+  margin: 0.25em 0.1em;
+  box-shadow: 0 0 8px #00000054;
+
+  &.tag-javascript {
+    background: #f7df1e;
+    color: black;
+  }
+
+  &.tag-typescript {
+    background: #2f74c0;
+    color: #f7f7f7;
+  }
+
+  &.tag-python {
+    background: #407eb0;
+    color: #ffdf5a;
+  }
+
+  &.tag-html {
+    background: #dd4b25;
+    color: #f7f7f7;
+  }
+
+  &.tag-go {
+    background: #fff;
+    color: #00acd7;
+  }
+
+  &.tag-c\+\+ {
+    background: #5b92c8;
+    color: #f7f7f7;
+  }
+
+  &.tag-c\# {
+    background: #67217a;
+    color: #fff;
+  }
+
+  &.tag-php {
+    background: #777bb3;
+    color: #000;
+
+    /**
+      text-shadow:
+      1px 1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      -1px -1px 0 #fff;
+    */
+  }
+
+  &.tag-scss {
+    color: #fff;
+    background: #cf649a;
+  }
+
+  &.tag-git {
+    background: #f1f1e9;
+    color: #413932;
+  }
+
+  &.tag-android {
+    background: #a4c639;
+    color: #333;
+  }
+
+  &.tag-node {
+    background: #7EC729;
+    color: #3F3F35;
+  }
+
+  &.tag-angular {
+    background: #DD0031;
+    color: #F7F7F7;
+  }
+
+  &.tag-django {
+    background: #103E2E;
+    color: #FFFFFF;
+  }
+
+  &.tag-docker {
+    background: #2495ED;
+    color: #FFFFFF;
+  }
+
+  &.tag-ionic {
+    color: #3880FF;
+    background: #FFFFFF;
+  }
+
+  &.tag-react {
+    color: #7DDFFF;
+    background: #000;
+  }
+}
 
 .i18n-switcher {
   display: flex;

@@ -12,6 +12,9 @@ rssLimit = 10
 
 defaultContentLanguage = "en"
 [languages]
+  # --------------------------------------------------------------------------------------------------------------------
+  # 🇺🇸 EN
+  # --------------------------------------------------------------------------------------------------------------------
   [languages.en]
     weight = 1
     languageName = "English"
@@ -21,6 +24,21 @@ defaultContentLanguage = "en"
       about = "/about"
 
     [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Tutorials"
+        url = "/tutorials"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        name = "Quick tips"
+        url = "/quick-tips"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/tags"
+        weight = 30
+
       [[languages.en.menu.social]]
         name = "YouTube"
         pre = "<img src=\"/images/svg/youtube.svg\" alt=\"YouTube - DanDevTips\" />"
@@ -55,9 +73,9 @@ defaultContentLanguage = "en"
         url = "/terms"
         weight = 3
 
-
-
-
+  # --------------------------------------------------------------------------------------------------------------------
+  # 🇧🇷 PT-BR
+  # --------------------------------------------------------------------------------------------------------------------
   [languages.pt-br]
     weight = 2
     languageName = "Português"

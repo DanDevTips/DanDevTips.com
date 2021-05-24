@@ -8,5 +8,27 @@ draft: false
 weight: 50
 images: ["say-hello-to-doks.png"]
 contributors: ["Daniel H. G. Mescoloto"]
-tags: [ 'tag1', 'tag2', 'tag3' ]
+tags: [
+'JavaScript',
+'TypeScript',
+'HTML',
+'Python',
+'C#',
+'C++',
+'PHP',
+'GO',
+'SCSS',
+
+'Ionic',
+'Android',
+'Angular',
+'React',
+'Django',
+'git',
+'Docker',
+'Node',
+
+'security',
+'performance',
+]
 ---
