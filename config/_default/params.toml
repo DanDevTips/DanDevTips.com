@@ -1,0 +1,58 @@
+# Meta Data for SEO
+
+## Homepage
+title = "DanDevTips"
+titleSeparator = "-"
+titleAddition = "Tutorial and Tips for Developers"
+description = "Tutorials and Tips for Developers"
+
+## Open Graph + Twitter Cards
+images = [""]
+twitterSite = ""
+twitterCreator = ""
+facebookAuthor = ""
+facebookPublisher = ""
+ogLocale = "en_US"
+
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "logo-doks.png"
+schemaTwitter = "https://twitter.com/DanDevTips"
+# schemaLinkedIn = ""
+schemaGitHub = "https://github.com/DanDevTips/"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+# footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a> and <a href=\"https://gohugo.io/\">Hugo</a>"
+
+# Alert
+alert = false
+alertText = "Like DanDevTips? <a class=\"alert-link\" href=\"#\">Link</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/DanDevTips/DanDevTips.com"
+editPage = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  kaTex = false

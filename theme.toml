@@ -1,0 +1,18 @@
+name = "DanDevTips"
+license = "APACHE LICENSE, VERSION 2.0"
+licenselink = "https://github.com/DanDevTips/DanDevTips.com/blob/main/LICENSE"
+description = "Tutorials and tips for Developers"
+homepage = "https://dandevtips.com/"
+tags = [
+]
+features = [
+]
+min_version = "0.75.0"
+
+[author]
+  name = "Daniel H. G. Mescoloto"
+  homepage = "https://mescoloto.com/"
+
+[permalinks]
+  about = "/about/:slug"
+

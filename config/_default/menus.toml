@@ -1,0 +1,42 @@
+[[docs]]
+  name = "Prologue"
+  weight = 10
+  identifier = "prologue"
+  url = "/docs/prologue/"
+
+[[docs]]
+  name = "Help"
+  weight = 60
+  identifier = "help"
+  url = "/docs/help/"
+
+[[main]]
+  name = "Docs"
+  url = "/docs/prologue/introduction/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 20
+
+
+
+
+#
+#
+# [[footer]]
+#   name = "Privacy"
+#   url = "/privacy-policy/"
+#   weight = 20
+#
+# [[footer]]
+#   name = "Terms"
+#   url = "/terms/"
+#   weight = 30
+
+
+# [[footer]]
+#   name = "Privacy"
+#   url = "/privacy-policy/"
+#   weight = 10

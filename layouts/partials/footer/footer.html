@@ -1,0 +1,65 @@
+<footer class="footer text-muted">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item"> Copyright © {{ dateFormat "2006" now }} <strong>DanDevTips</strong> </li>
+          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          {{ range .Site.Menus.footer -}}
+          <li class="list-inline-item"><a href="{{ .URL | absLangURL  }}">{{ .Name }}</a></li>
+          {{ end -}}
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-12 order-2  order-lg-first">
+        <ul class="footer-social-nav order-3 order-md-5">
+          {{ range .Site.Menus.social -}}
+          <li class="footer-nav-item {{ .Name | safeHTML }}">
+            <a class="footer-nav-link" href="{{ .URL | absLangURL  }}" target="_blank">{{ .Pre | safeHTML }}<span
+              class="ms-2 visually-hidden">{{ .Name | safeHTML }}</span></a>
+          </li>
+          {{ end -}}
+        </ul>
+      </div>
+
+      {{ if .IsTranslated }}
+      {{ range .Translations }}
+      <div class="col-lg-2 col-sm-12 order-3">
+        <div class="dropdown dropdown-lang">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLanguageFooter"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+            {{ if eq .Lang "pt-br" }}
+            <img src="/images/svg/flag-us.svg" alt="translation flag english " class="object-contain h-4 w-full"/>
+            <span>EN</span>
+            {{ else }}
+            <img src="/images/svg/flag-br.svg"  alt="translation flag brazilian portuguese" class="object-contain h-4 w-full"/>
+            <span>PT-BR</span>
+            {{ end }}
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLanguageFooter">
+            <li>
+              <a href="{{ .Permalink }}" class="dropdown-item ">
+                {{ if eq .Lang "en" }}
+                <img src="/images/svg/flag-us.svg" alt="translation flag english " class="object-contain h-4 w-full"/>
+                <span>EN</span>
+                {{ else }}
+                <img src="/images/svg/flag-br.svg"  alt="translation flag brazilian portuguese" class="object-contain h-4 w-full"/>
+                <span>PT-BR</span>
+                {{ end }}
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      {{ end }}
+      {{ end }}
+
+
+
+    </div>
+  </div>
+</footer>
