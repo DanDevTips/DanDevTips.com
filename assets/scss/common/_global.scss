@@ -87,6 +87,10 @@ a.btn:focus {
 
 body {
   padding-top: 3.5625rem;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .docs-sidebar {

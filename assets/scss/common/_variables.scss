@@ -9,20 +9,30 @@ $gray-500: #adb5bd;
 $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
-$gray-900: #212529;
+$gray-900: #0c0c0c;
 $black:    #000;
 
 $yellow:   #ffe000;
 $black:    #1d2d35;
+ // $black:    #0c0c0c;
+
 $beige:    #fbf7f0;
 // $red:      #e55235;
 $purple:   #5d2f86;
 $brown:    #aa9c84;
 
-$blue-300: #8ed6fb;
+// $blue-300: #8ed6fb;
+$blue-300: #2196f3;
+
 $pink-500: #d32e9d;
 
 $primary: $purple;
+
+
+/// defined colors:
+
+
+
 
 // Options
 //
@@ -30,8 +40,8 @@ $primary: $purple;
 
 $enable-caret:                true;
 $enable-rounded:              true;
-$enable-shadows:              false;
-$enable-gradients:            false;
+$enable-shadows:              true;
+$enable-gradients:            true;
 $enable-transitions:          true;
 $enable-reduced-motion:       true;
 $enable-smooth-scroll:        true;
