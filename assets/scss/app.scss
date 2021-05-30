@@ -10,7 +10,15 @@
 @import "bootstrap/scss/bootstrap";
 
 /** Import highlight.js */
-// @import "highlight.js/scss/dracula";
+
+body:not(.dark) {
+  @import "highlight.js/scss/vs.scss";
+}
+
+body.dark {
+  @import "highlight.js/scss/vs2015.scss";
+}
+
 
 /** Import KaTeX */
 @import "katex/dist/katex";
@@ -19,8 +27,7 @@
 @import "common/fonts";
 @import "common/global";
 @import "common/dark";
-@import "components/doks";
-// @import "components/syntax";
+// @import "components/doks";
 @import "components/code";
 @import "components/alerts";
 @import "components/buttons";
@@ -28,7 +35,7 @@
 @import "components/forms";
 @import "components/images";
 @import "components/search";
-@import "components/tables";
+// @import "components/tables";
 @import "layouts/footer";
 @import "layouts/header";
 @import "layouts/pages";
@@ -71,6 +78,7 @@
     }
   }
 }
+
 
 .tag {
   display: inline-block;
@@ -196,4 +204,45 @@
       color: $gray-300;
     }
   }
+}
+
+
+.highlight {
+  margin-bottom: 30px;
+
+  table {
+    tr {
+      vertical-align: top;
+
+      td:first-child {
+        min-width: 50px;
+        text-align: right;
+      }
+
+      td:nth-child(2) {
+        min-width: 550px;
+        width: 550px;
+        max-width: 550px;
+      }
+    }
+  }
+}
+
+body:not(.dark) .hljs {
+  background: #f1f3f4;
+}
+
+body.dark .hljs {
+  background: #181a1c;
+}
+
+pre, code {
+  white-space: pre;
+  overflow-x: auto;
+}
+.hljs {
+  display: inline-block;
+  overflow-x: auto;
+  padding: 0.5em;
+  padding-right: 100%;
 }

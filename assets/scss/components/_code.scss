@@ -17,6 +17,12 @@ pre {
   margin: 2rem 0;
 }
 
+.highlight {
+  pre {
+    margin: 0;
+  }
+}
+
 pre code {
   display: block;
   overflow-x: auto;

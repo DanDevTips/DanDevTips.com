@@ -193,9 +193,9 @@ rel  = "sitemap"
     hl_Lines = ""
     lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = true
+    lineNumbersInTable = false
     noClasses = false
-    style = "dracula"
+    style = "darcula"
     tabWidth = 4
 
 [sitemap]

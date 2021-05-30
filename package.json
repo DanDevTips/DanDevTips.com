@@ -16,6 +16,7 @@
   "scripts": {
     "init": "rimraf .git && git init -b main",
     "create": "hugo new",
+    "aaa": "hugo gen chromastyles -h",
     "prestart": "npm run clean",
     "start": "hugo server --bind=0.0.0.0 --disableFastRender",
     "prebuild": "npm run clean",
