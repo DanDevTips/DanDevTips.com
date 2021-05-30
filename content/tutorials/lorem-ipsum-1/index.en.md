@@ -13,7 +13,7 @@ url: /tutorials/lorem-ipsum-1
 
 Setup a basic fullscreen scene using the example from the official docs:
 
-
+{{< file "js" "/src/components/" "index.js" >}}
 {{< highlight html "linenos=table"  >}}
 <body bgcolor="#FFFFFF" text="#000000" link="#0000CC">
     <h1>abc</h1>
@@ -23,8 +23,8 @@ Setup a basic fullscreen scene using the example from the official docs:
 {{< /highlight >}}
 
 
-
-{{< highlight javascript "linenos=table"  >}}
+{{< file "html" "/src/" "file.js"  >}}
+{{< highlight javascript "linenos=table,hl_lines=8 12-16,linenostart=199"  >}}
 /**
 sample javascript from xui
 */

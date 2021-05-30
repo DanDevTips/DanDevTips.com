@@ -245,4 +245,52 @@ pre, code {
   overflow-x: auto;
   padding: 0.5em;
   padding-right: 100%;
+
+
+
+}
+
+
+.file {
+  background: #f1f3f4;
+  color: #1D2D35;
+
+  .dark & {
+    background: #181a1c;
+    color: #e9ecef;
+  }
+
+  margin: 1px;
+  border-radius: 4px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+
+
+
+  .file-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 10px;
+  }
+
+  .file-path {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 200;
+    position: relative;
+    top: 4px;
+  }
+
+  .file-name {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    font-weight: 500;
+    margin-left: 2px;
+  }
+
 }
