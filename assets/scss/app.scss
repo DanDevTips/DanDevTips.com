@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap");
 
 /** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
@@ -45,7 +45,6 @@ body.dark {
 .dropdown-lang {
   margin-left: 20px;
 
-
   .btn {
     box-shadow: none;
     margin: 0;
@@ -78,7 +77,6 @@ body.dark {
     }
   }
 }
-
 
 .tag {
   display: inline-block;
@@ -154,32 +152,32 @@ body.dark {
   }
 
   &.tag-node {
-    background: #7EC729;
-    color: #3F3F35;
+    background: #7ec729;
+    color: #3f3f35;
   }
 
   &.tag-angular {
-    background: #DD0031;
-    color: #F7F7F7;
+    background: #dd0031;
+    color: #f7f7f7;
   }
 
   &.tag-django {
-    background: #103E2E;
-    color: #FFFFFF;
+    background: #103e2e;
+    color: #fff;
   }
 
   &.tag-docker {
-    background: #2495ED;
-    color: #FFFFFF;
+    background: #2495ed;
+    color: #fff;
   }
 
   &.tag-ionic {
-    color: #3880FF;
-    background: #FFFFFF;
+    color: #3880ff;
+    background: #fff;
   }
 
   &.tag-react {
-    color: #7DDFFF;
+    color: #7ddfff;
     background: #000;
   }
 }
@@ -205,7 +203,6 @@ body.dark {
     }
   }
 }
-
 
 .highlight {
   margin-bottom: 30px;
@@ -236,24 +233,22 @@ body.dark .hljs {
   background: #181a1c;
 }
 
-pre, code {
+pre,
+code {
   white-space: pre;
   overflow-x: auto;
 }
+
 .hljs {
   display: inline-block;
   overflow-x: auto;
   padding: 0.5em;
   padding-right: 100%;
-
-
-
 }
-
 
 .file {
   background: #f1f3f4;
-  color: #1D2D35;
+  color: #1d2d35;
 
   .dark & {
     background: #181a1c;
@@ -267,8 +262,6 @@ pre, code {
   align-items: center;
   flex-direction: row;
   font-weight: 500;
-
-
 
   .file-icon {
     width: 24px;
@@ -292,5 +285,26 @@ pre, code {
     font-weight: 500;
     margin-left: 2px;
   }
+}
 
+.language-bash {
+  white-space: normal;
+  word-break: normal;
+  padding-left: 40px !important;
+  position: relative;
+
+  &::before {
+    background: url(/images/svg/terminal.svg);
+
+    .dark & {
+      background: url(/images/svg/terminal-dark.svg);
+    }
+    content: "";
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+  }
 }

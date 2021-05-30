@@ -160,15 +160,27 @@ class ExitNotifyThread(Thread):
 
 ## asdas
 
+a asd
+
+### asd dsa
+
+asd
+
 
 {{< btn-copy text="bin\cake jwt --email=dan.gasperoni@gmail.com" >}}
 ```bash
 bin\cake jwt --email=dan.gasperoni@gmail.com
 ```
 
-
+{{< btn-copy text="bin\cake jwt --email=dan.gasperoni@gmail.com" >}}
 ```bash
-docker build -t getting-started .
+bin\cake jwt --email=dan.gasperoni@gmail.com spij gopisdhg pwt yiohsdghaw4iogt kaerhtj hjkgh jksedh gtjdfh gjkdfsgh
+```
+
+
+{{< btn-copy text="docker build -t getting-started " >}}
+```bash
+docker build -t getting-started
 ```
 
 {{< highlight xml "linenos=table"  >}}
